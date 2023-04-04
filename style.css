@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+   min-height: 100vh;
+    background-image: url(EG-ar-20230320-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.629);
+
+}
+header nav{
+   
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+  
+   
+   
+
+
+
+}
+
+.left {
+    display: flex;
+  
+    width: 80%;
+    color: white;
+   
+    position: relative;
+    z-index: 3;
+    
+}
+.left a{
+   
+   
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    
+    background: rgb(229,9,20);
+    color: rgb(255,255,255);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.lang{
+    background-color: black;
+    border:1px solid white;
+    color :white;
+
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.right{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(229,9,20) ;
+
+   
+    position: relative;
+    z-index: 3;
+
+}
+
+
+section{
+   
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    margin-top: 150px;
+}
+section h1{
+  color: white;
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+section p ,h3{
+    color: white;
+    font-size: 24px;
+  }
+  section  button{
+    background-color:rgb(229,9,20)  ;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    font-size:24px;
+    margin-right:10px ;
+    border-radius: 5px;
+    
+
+
+  }
+  .fa-chevron-right{
+    margin-right: 10px;
+  }
+  section input{
+    
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    font-size:24px;
+    width:50%;
+    direction: rtl;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.62);
+    border: 1px solid white;
+
+
+  }
+   section form{
+    margin-top: 40px;
+   
+   }
+   @media (max-width:570px) {
+    .vesebel{
+        display: none;
+    }
+    .right{
+        font-size: 25px;
+        
+        font-weight: bold;
+       
+    
+    }
+        .cardes{
+            padding: 15px;
+        }
+        .left{
+            justify-content: space-between;
+        }
+        .left a {
+            width: 50%;
+        }
+        section input{
+            width: 100%;
+          }
+          form{
+            flex-direction: column-reverse;
+          }
+        
+    }
+    .lang{
+      
+        font-size: 12px;
+     
+    }
+    form{
+        display: flex;
+       
+        align-items: center;
+        
+    }
+    
+    section h1{
+        
+        font-size: 45px;
+      }
+      
+      section {
+
+justify-content: center;
+      }
+    
+        
+      
+      form{
+        margin: auto;
+
+display: flex;
+justify-content: center;
+
+      }
+
+main{
+    background-color: black;
+ 
+    
+}
+.tv{
+    display: flex;
+    align-items: center;
+    
+}
+.text h1{
+    color: white;
+    font-size:48px;
+    margin-bottom: 20px;
+}
+
+.row{
+    align-items: center;
+}
+
+.text{
+ 
+    text-align:right;
+    
+
+}
+
+@media (max-width:992px) {
+     main.row ,.cont {
+        flex-direction: column-reverse;
+    }
+    .column-reverse  {
+        flex-direction: column;
+    }
+    .text{
+      
+        text-align:center;
+        
+    
+    }
+
+}
+
+
+.scren img{
+    width: 100%;
+}
+.befor{
+ 
+    position: relative;
+    padding: 50px 0;
+ 
+}
+.befor::after{
+    content: "";
+    background-color: #333;
+    height: 8px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.cont{
+  
+   margin: auto;
+}
+.serveses{
+    padding-bottom: 50px;
+}
+.serveses h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+ 
+    margin-bottom: 30px;
+}
+.serveses .df{
+ color: white;
+background-color: rgba(51, 51, 51, 0.498);
+ padding: 14.5px;
+ display: flex;
+ justify-content: space-between;
+   align-items: center;
+   font-size: 40px;
+   margin-bottom: 2px;
+   
+}
+.serveses div:hover{
+
+background-color: rgba(51, 51, 51, 0.818);
+}
+
+
+.serveses div h3{
+   
+      font-size: 40px;
+   }
+   .serveses p{
+   
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    margin-top: 2px;
+    display: none;
+    padding: 15px;
+    text-align: right;
+    
+    
+ }
+ 
+
+.fa-xmark{
+    visibility:hidden;
+
+}
+footer{
+    background-color:black ;
+    padding-top: 50px;
+}
+.mar{
+    margin-top: 50px;
+   margin-bottom: 20px;
+}
+footer li {
+list-style-type: none;
+margin-bottom: 10px;
+}
+
+footer  a {
+   color: white;
+    }
+
+    .mar2{
+        margin-top: 20px;
+     
+    }
+    footer .container p{
+        color:white;
+    }
+
+
+
+
+
